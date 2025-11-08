@@ -9,8 +9,6 @@ It allows users to **record an audio message**, **automatically transcribe it us
 - **Backend:** [Django REST Framework](https://www.django-rest-framework.org/)
 - **AI Services:** [OpenAI Whisper API](https://platform.openai.com/docs/models/whisper-1) & [GPT-4](https://openai.com/index/gpt-4/)
 
-
-
 ### Architecture
 ```
 [Frontend : Next.js + shadcn]
@@ -20,15 +18,11 @@ It allows users to **record an audio message**, **automatically transcribe it us
 [OpenAI Whisper API + GPT-4 / Translation]
 ```
 
-
-
 ### How It Works
 - 1. The user records or uploads an **audio message** from the web interface.  
 - 2. The audio is sent to the **backend**, which forwards it to the **OpenAI Whisper API** for transcription.  
 - 3. Once transcribed, the **text** is sent to a **GPT-4** that converts it from **French to Lao**.  
 - 4. The translated text is then **returned to the user interface** for display or download.
-
-
 
 ### Modularity
 By default, Siangdee is configured for **French → Lao** translation.  
@@ -36,7 +30,10 @@ However, the system is **modular and extensible**, meaning it can easily support
 
 See the README in the `/frontend` directory for more details on how to customize language pairs.
 
-
-
 ### Improvement Axes
 - Upgrade from a classic web app to a Progressive Web App (PWA).
+
+### What it looks like
+<p align="center">
+  <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/033ae4bc-982b-444c-8343-7bd89ca2fe8b" />
+</p>
