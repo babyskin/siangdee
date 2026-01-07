@@ -30,10 +30,7 @@ However, the system is **modular and extensible**, meaning it can easily support
 
 See the README in the `/frontend` directory for more details on how to customize language pairs.
 
-### Improvement Axes
-- Upgrade from a classic web app to a Progressive Web App (PWA).
-
 ### What it looks like
 <p align="center">
-  <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/033ae4bc-982b-444c-8343-7bd89ca2fe8b" />
+  <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/e05b1ad7-9775-44ee-b847-58e87ac49ae8" />
 </p>
